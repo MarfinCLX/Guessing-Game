@@ -1,4 +1,4 @@
-let randomNumber = Math.floor(Math.random() * 1000) + 1;
+let randomNumber = Math.floor(Math.random() * 1500) + 1;
 let attempts = 15;
 
 function checkGuess() {
