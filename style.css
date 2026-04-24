@@ -39,3 +39,16 @@ button:hover {
 background-color: white;
 color: blue;
 }
+
+@media (max-width: 600px) {
+   body {
+flex-direction: column;
+padding: 40px 20px;
+height: auto;
+   }
+   button {
+width: 100%;
+margin: 15px 0;;
+font-size: 1.2rem;
+   }
+}
